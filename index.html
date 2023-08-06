@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+</head>
+<body onload="performCount('increment')">
+    <h1 style="text-align: center;">Simple Counter</h1>
+    <p>Simple counting app. Click Enter to increment the counter and Leave to decrement the count.</p>
+    <p>1 is by default to count the person visiting this webpage! This page will decrease count below 0</p>
+    <button id="count-btn" onclick="performCount('increment')">INCREASE</button>
+    <button id="count-btn" onclick="performCount('decrement')">DECREASE</button>
+    <p id="display-count" style="font-size: xx-large; font-style: bold; font-family: 'Helvetica'; color: blue;">
+        0
+    </p>
+    <script src="index.js"></script>
+</body>
+</html>
